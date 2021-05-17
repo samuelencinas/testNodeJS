@@ -4,7 +4,7 @@ Desarrolla un micro-banckend que cumpla con los siguientes parametros:
 
 1. Puerto de servicio: 8080
 2. Requiere Authentication a través de una cabecera.
-3. Válidar valor Authentication con los valores del archivo validateAuth.json
+3. Válidar valor Authentication con los valores del archivo validateAuth.json y la fecha de expiración con el momento actual.
 4. Requiere datos con la estructura:
 ```json
 {
@@ -15,4 +15,5 @@ Desarrolla un micro-banckend que cumpla con los siguientes parametros:
 }
 ```
 6. Validar la estructura recibida.
-7. Integrar un sistema de log que registre cada una de las tareas del micro-backend.
+7. Responder con la diferencia de tiempo que hay entre la fecha recibida y la fecha de expiracion del archivo validateAuth.json
+8. Integrar un sistema de log que registre cada una de las tareas del micro-backend.
