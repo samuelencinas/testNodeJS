@@ -1,1 +1,18 @@
-# testNodeJS
+# test NodeJS
+
+Desarrolla un micro-banckend que cumpla con los siguientes parametros:
+
+1. Puerto de servicio: 8080
+2. Requiere Authentication a través de una cabecera.
+3. Válidar valor Authentication con los valores del archivo validateAuth.json
+4. Requiere datos con la estructura:
+```json
+{
+  "code": 15,                     // Integer | Required
+  "name": "Test",                 // String  | Required
+  "description": "Description",   // String  | Optional
+  "date": "2022-05-05T10:00:00"   // Date    | Required
+}
+```
+6. Validar la estructura recibida.
+7. Integrar un sistema de log que registre cada una de las tareas del micro-backend.
