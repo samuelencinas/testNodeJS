@@ -17,3 +17,4 @@ Desarrolla un micro-banckend que cumpla con los siguientes parametros:
 6. Validar la estructura recibida.
 7. Responder con la diferencia de tiempo que hay entre la fecha recibida y la fecha de expiracion del archivo validateAuth.json
 8. Integrar un sistema de log que registre cada una de las tareas del micro-backend.
+9. Define el servicio web mediante Swagger 2.0 o OpenAPI 3.0
