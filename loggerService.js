@@ -1,3 +1,10 @@
+/**
+ * PRUEBA TÉCNICA PARA CONECTA TURISMO
+ * Samuel Encinas Plaza
+ * 
+ * Archivo de configuración de pino como servicio de logger
+ */
+
 const pino = require('pino')
 const levels = {
   http: 10,

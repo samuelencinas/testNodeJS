@@ -1,0 +1,66 @@
+swagger: "2.0"
+info:
+  description: "Este es un microbackend realizado para la prueba técnica de Conecta Turismo por Samuel Encinas Plaza"
+  version: "1.0.0"
+  title: "testNodeJS"
+host: "localhost:8080"
+basePath: "/"
+tags:
+- name: "Microbackend"
+  description: "Documentación del microbackend"
+  externalDocs:
+    description: "Saber más"
+    url: "https://github.com/samuelencinas/testNodeJS"
+schemes:
+- "http"
+paths:
+  /:
+    post:
+      tags:
+      - "Función principal"
+      summary: "Envía los datos, los valida y obtiene la diferencia de tiempo con la fecha de expiración de la autenticación"
+      description: ""
+      operationId: "addPet"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Los datos que deben enviarse"
+        required: true
+        schema:
+          $ref: "#/definitions/Datos"
+      responses:
+        "400":
+          description: "Bad request. Have you set the correct data in the correct format?"
+        "401":
+          description: "Unauthorized token value. Have you set it alright?"
+        "200":
+          description: "Correct validation."
+      security:
+      - authorization_token: []
+   
+securityDefinitions:
+  authorization_token:
+    type: "apiKey"
+    name: "Authorization"
+    in: "header"
+definitions:
+  Datos:
+    type: "object"
+    required:
+      - code
+      - name
+      - date
+    properties:
+      code: 
+        type: "integer"
+      name:
+        type: "string"
+      description:
+        type: "string"
+      date:
+        type: "string"
+        format: "date-time"

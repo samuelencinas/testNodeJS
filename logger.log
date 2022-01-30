@@ -1,1 +1,20 @@
 [32mINFO[39m [30-01-2022, 6:52:00 PM]: [36mPrueba[39m
+[32mINFO[39m [30-01-2022, 7:30:05 PM]: [36mValidación del token de autenticación incorrecta. El usuario no se ha autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:30:31 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:30:31 PM]: [36mValidación de los datos recibidos correcta.[39m
+[32mINFO[39m [30-01-2022, 7:33:30 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:33:30 PM]: [36mValidación de los datos recibidos correcta.[39m
+[32mINFO[39m [30-01-2022, 7:33:51 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:33:51 PM]: [36mValidación de los datos recibidos correcta.[39m
+[32mINFO[39m [30-01-2022, 7:34:16 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:16 PM]: [36mValidación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado[39m
+[32mINFO[39m [30-01-2022, 7:34:29 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:29 PM]: [36mValidación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado[39m
+[32mINFO[39m [30-01-2022, 7:34:30 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:30 PM]: [36mValidación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado[39m
+[32mINFO[39m [30-01-2022, 7:34:49 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:49 PM]: [36mValidación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado[39m
+[32mINFO[39m [30-01-2022, 7:34:49 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:49 PM]: [36mValidación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado[39m
+[32mINFO[39m [30-01-2022, 7:34:58 PM]: [36mValidación del token de autenticación correcta. Usuario autenticado.[39m
+[32mINFO[39m [30-01-2022, 7:34:58 PM]: [36mValidación de los datos recibidos correcta.[39m
