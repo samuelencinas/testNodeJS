@@ -5,9 +5,9 @@
 - Asimismo, se ha utilizado **pino** como *sistema de logging*, guardando en un log cada operación del back. Se ha decidido utilizar este módulo ya que es el que he usado anteriormente y me ha dado buenos resultados.
 - Por último, se ha utilizado **swagger 2.0** para la documentación del modelo de Datos y de la operación principal (y me ha dado algún que otro problemilla, lo conseguí resolver 30min después de la entrega y por eso no subió en el primer commit y hay dos commit posteriores al primero)
 ## Funcionamiento
-**npm start** para ejecutar el servidor
-**localhost:8080/** con los datos correctos de Authentication y body para realizar la petición
-**localhost:8080/api-docs** desde el navegador para acceder al Swagger
+- **npm start** para ejecutar el servidor
+- **localhost:8080/** con los datos correctos de Authentication y body para realizar la petición
+- **localhost:8080/api-docs** desde el navegador para acceder al Swagger
 ## Pruebas
 ![](./pruebas/200.PNG)
 ![](./pruebas/400.PNG)
