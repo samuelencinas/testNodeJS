@@ -8,6 +8,10 @@
 **npm start** para ejecutar el servidor
 **localhost:8080/** con los datos correctos de Authentication y body para realizar la petición
 **localhost:8080/api-docs** desde el navegador para acceder al Swagger
+## Pruebas
+![](./pruebas/200.PNG)
+![](./pruebas/400.PNG)
+![](./pruebas/401.PNG)
 
 # test NodeJS (Enunciado)
 
