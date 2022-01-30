@@ -95,5 +95,5 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Ejecución del servidor
 app.listen(port, () => {
-console.log('Servidor ejecutándose en el puerto ${port}')
+console.log('Servidor ejecutándose!')
 })
