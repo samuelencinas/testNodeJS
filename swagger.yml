@@ -20,7 +20,7 @@ paths:
       - "Función principal"
       summary: "Envía los datos, los valida y obtiene la diferencia de tiempo con la fecha de expiración de la autenticación"
       description: ""
-      operationId: "addPet"
+      operationId: "main"
       consumes:
       - "application/json"
       produces:
