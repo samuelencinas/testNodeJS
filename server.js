@@ -77,8 +77,8 @@ app.post('/', jsonParser, (req, res) => {
         logger.info("Validación del token de autenticación correcta. Usuario autenticado.");
         if (!!validateData(req.body)){
             logger.info("Validación de los datos recibidos correcta.");
-            const currentTime = new Date().getTime()
-            const timeDifference = expirationDate - currentTime;
+            const receivedTime = new Date(req.body.date).getTime()
+            const timeDifference = Math.abs(expirationDate - receivedTime);
             res.status(200).send(String(timeDifference));
         } else {
             logger.info("Validación de los datos recibidos incorrecta. Los datos no cuentan con el formato adecuado")
